@@ -309,6 +309,7 @@ type CreateProjectOptions struct {
 	OnlyAllowMergeIfAllDiscussionsAreResolved *bool            `url:"only_allow_merge_if_all_discussions_are_resolved,omitempty" json:"only_allow_merge_if_all_discussions_are_resolved,omitempty"`
 	LFSEnabled                                *bool            `url:"lfs_enabled,omitempty" json:"lfs_enabled,omitempty"`
 	RequestAccessEnabled                      *bool            `url:"request_access_enabled,omitempty" json:"request_access_enabled,omitempty"`
+	ApprovalsBeforeMerge  					  *bool            `url:"approvals_before_merge,omitempty" json:"approvals_before_merge,omitempty"`
 }
 
 // CreateProject creates a new project owned by the authenticated user.
